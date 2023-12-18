@@ -1,0 +1,109 @@
+/* Custom styling here */
+
+body {
+    font-family: 'Courgette', sans-serif;
+    background-image: url('Dogs Wallpaper 04.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; 
+}
+
+.container {
+    max-width: 700px;
+    margin: 10px auto 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 130%;
+}
+
+form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#dogForm {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#dogImages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+#imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* More styles to my app.css */
+
+.top-bar {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Courgette', sans-serif;
+}
+
+.top-bar h1 {
+    margin: 0;
+}
+
+.top-bar-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 130%;
+}
+
+.top-bar-links a:hover {
+    text-decoration: underline;
+    color: rgb(248, 242, 128);
+}
+
+/* Intro container */
+
+#intro-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#intro-container h2 {
+    font-size: 44px;
+    font-weight: bold;
+}
+
+#intro-container p {
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+}
+
+/* Bottom box */
+
+.bottom-box {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottom-box p {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Alata', sans-serif;
+}

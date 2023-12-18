@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog API Project</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-bar">
+        <h1>Dog Image Viewer</h1>
+        <div class="top-bar-links">
+            <a href="#">The Dog API</a>
+            <a href="#">Dog Quizzes</a>
+            <a href="#">FAQs</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="intro-container">
+            <h2>Check out our cute photos!</h2>
+            <p>
+                Here's some advice and info to help you decide the best future dog for your family. 
+                There are many things to consider before you welcome a new dog into your home. 
+                Every dog breed is unique and special, so take your time to decide which best suits you. 
+                Dogs come in many colors, shapes, and sizes, check our list to see photos and decide which breed best suits your lifestyle.
+            </p>
+        </div>
+
+        <form id="dogForm">
+            <label for="breeds">Select a Breed:</label>
+            <select id="breeds" name="breeds"></select>
+
+            <label for="imageCount">Number of Images (1-100):</label>
+            <input type="number" id="imageCount" name="imageCount" min="1" max="100" required>
+
+            <button type="submit">Load Images</button>
+        </form>
+
+        <div id="dogImages"></div>
+    </div>
+
+    <div class="bottom-box">
+        <p>© Dog Image Viewer, Inc. 2023. All rights reserved.</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
